@@ -7,6 +7,7 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="2560"
@@ -16,11 +17,23 @@
    id="svg8"
    inkscape:version="0.92.3 (2405546, 2018-03-11)"
    sodipodi:docname="YouTubeBanner.svg"
-   inkscape:export-filename="C:\Users\brock\Desktop\GrokWithBrock_YouTubeBanner.png"
+   inkscape:export-filename="C:\Users\brock\Desktop\HexTiling.png"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96">
   <defs
      id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient2367">
+      <stop
+         style="stop-color:#6b6b6b;stop-opacity:1;"
+         offset="0"
+         id="stop2363" />
+      <stop
+         style="stop-color:#6b6b6b;stop-opacity:0;"
+         offset="1"
+         id="stop2365" />
+    </linearGradient>
     <filter
        inkscape:collect="always"
        style="color-interpolation-filters:sRGB"
@@ -2010,25 +2023,34 @@
          stdDeviation="1.8004472"
          id="feGaussianBlur5120-49-593" />
     </filter>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2367"
+       id="linearGradient2369"
+       x1="182.72786"
+       y1="189.97083"
+       x2="588.14978"
+       y2="189.97083"
+       gradientUnits="userSpaceOnUse" />
   </defs>
   <sodipodi:namedview
      id="base"
-     pagecolor="#000d21"
+     pagecolor="#ffffff"
      bordercolor="#666666"
      borderopacity="1.0"
-     inkscape:pageopacity="0"
+     inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.5"
-     inkscape:cx="1374.9466"
-     inkscape:cy="730.59672"
+     inkscape:zoom="0.35355339"
+     inkscape:cx="1322.531"
+     inkscape:cy="430.58747"
      inkscape:document-units="mm"
      inkscape:current-layer="layer3"
      showgrid="false"
      units="px"
-     inkscape:window-width="2560"
-     inkscape:window-height="1377"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="2552"
+     inkscape:window-y="350"
      inkscape:window-maximized="1" />
   <metadata
      id="metadata5">
@@ -2038,7 +2060,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -7868,22 +7890,23 @@
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="Title"
+     style="display:inline"
      sodipodi:insensitive="true">
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:5.64444447px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:#0070ff;stroke-width:1.32291663;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;font-size:5.64444447px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:url(#linearGradient2369);fill-opacity:1;stroke:#000000;stroke-width:1.32291663;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        x="337.95007"
        y="183.37003"
        id="text7291-4"><tspan
          sodipodi:role="line"
          x="337.95007"
          y="183.37003"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:56.44444275px;line-height:0.75;font-family:'BankGothic Md BT';-inkscape-font-specification:'BankGothic Md BT';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#0070ff;stroke-width:1.32291663;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:56.44444275px;line-height:0.75;font-family:'BankGothic Md BT';-inkscape-font-specification:'BankGothic Md BT';text-align:center;text-anchor:middle;fill:url(#linearGradient2369);fill-opacity:1;stroke:#000000;stroke-width:1.32291663;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="tspan7293-1">Grok With</tspan><tspan
          sodipodi:role="line"
          x="337.95007"
          y="225.70335"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:56.44444275px;line-height:0.75;font-family:'BankGothic Md BT';-inkscape-font-specification:'BankGothic Md BT';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:#0070ff;stroke-width:1.32291663;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:56.44444275px;line-height:0.75;font-family:'BankGothic Md BT';-inkscape-font-specification:'BankGothic Md BT';text-align:center;text-anchor:middle;fill:url(#linearGradient2369);fill-opacity:1;stroke:#000000;stroke-width:1.32291663;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="tspan7315">Brock</tspan></text>
   </g>
 </svg>

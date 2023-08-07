@@ -1,0 +1,36 @@
+{
+    "parts": [
+        {"part": "Cedar Blank", "cost": "0.15", "inv": 15000, "uom": "EA"},
+        {"part": "Glue", "cost": "0.75", "inv": 1250, "uom": "LB"},
+        {"part": "Basic Lead", "cost": "0.45", "inv": 950, "uom": "LB"},
+        {"part": "Smooth Lead", "cost": "0.64", "inv": 1750, "uom": "LB"},
+        {"part": "Matte Paint", "cost": "0.57", "inv": 840, "uom": "LB"},
+        {"part": "Wood Stain", "cost": "0.89", "inv": 1100, "uom": "LB"},
+        {"part": "Ferrule", "cost": "0.10", "inv": 10000, "uom": "EA"},
+        {"part": "Eraser", "cost": "0.05", "inv": 32000, "uom": "LB"},
+        {"part": "Grip", "cost": "0.13", "inv": 20000, "uom": "LB"}
+    ],
+
+    "bom": [
+        {"part": "Cedar Blank", "economy": 0.1, "deluxe": 0.1, "uom": "EA"},
+        {"part": "Glue", "economy": 1.5, "deluxe": 1.5, "uom": "OZ"},
+        {"part": "Basic Lead", "economy": 3.0, "deluxe": 0.0, "uom": "OZ"},
+        {"part": "Smooth Lead", "economy": 0.0, "deluxe": 3.5, "uom": "OZ"},
+        {"part": "Matte Paint", "economy": 2.8, "deluxe": 0.0, "uom": "OZ"},
+        {"part": "Wood Stain", "economy": 0.0, "deluxe": 2.5, "uom": "OZ"},
+        {"part": "Ferrule", "economy": 1.0, "deluxe": 1.0, "uom": "EA"},
+        {"part": "Eraser", "economy": 1.0, "deluxe": 1.0, "uom": "EA"},
+        {"part": "Grip", "economy": 0.0, "deluxe": 1.0, "uom": "EA"}
+    ],
+
+    "dept":[
+        {"dept": "Preprocessing", "economy": 2.0, "deluxe": 2.0, "capacity": 12},
+        {"dept": "Curing", "economy": 3.5, "deluxe": 3.5, "capacity": 8.25},
+        {"dept": "Shaping", "economy": 1.25, "deluxe": 8.75, "capacity": 13},
+        {"dept": "Assembly", "economy": 8.0, "deluxe": 10.0, "capacity": 18}
+    ],
+
+    "economy_price": 0.99,
+    "deluxe_price": 1.75,
+    "shop_labor_rate": 0.65
+}
