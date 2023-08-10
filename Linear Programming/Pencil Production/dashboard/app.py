@@ -8,6 +8,8 @@ import dash_bootstrap_components as dbc
 import plotly.graph_objects as go
 import pandas as pd
 
+from lp_model import run_lp_model
+
 
 def read_data_file() -> dict:
     f =open('data.json')
@@ -237,7 +239,6 @@ clientside_callback(
 def calc_bar_color(load_frac: float) -> str:
     return 'crimson' if load_frac > 1 else 'lightslategray'
 
-
 def gen_dept_load_figure(econ_units, deluxe_units) -> Dict[go.Figure, pd.DataFrame]:
     dept_loads = []
     bar_colors = []
@@ -350,6 +351,15 @@ def calc_profit(econ_units, deluxe_units) -> float:
         matl_costs += (econ_units*econ_part_unit_used + deluxe_units*deluxe_part_unit_used)*unit_cost
     return gross_rev - labor_costs - matl_costs
 
+@callback(
+    Output('economy_units_knob', 'value'),
+    Output('deluxe_units_knob', 'value'),
+    Input('run_model_btn', 'n_clicks'),
+    prevent_initial_call=True
+)
+def run_lp_model(clicks):
+    econ_units, deluxe_units = run_lp_model(data)
+    return econ_units, deluxe_units
 
 @callback(
     Output('dept_load_chart', 'figure'),
