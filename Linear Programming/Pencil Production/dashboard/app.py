@@ -8,7 +8,7 @@ import dash_bootstrap_components as dbc
 import plotly.graph_objects as go
 import pandas as pd
 
-from lp_model import run_lp_model
+from lp_model import solve_lp_model
 
 
 def read_data_file() -> dict:
@@ -59,8 +59,10 @@ app.layout = html.Div([
                                                     html.Div([], id='deluxe_knob_label', className='text-center'),
                                                 ], className='d-inline-block', style={'width': '33%'}),
                                                 html.Div([
-                                                    dbc.Button('Run Model', id='run_model_btn', className='d-block'),
-                                                ], className='d-inline-block center', style={'width': '33%'})
+                                                    html.Img([], src='assets/run_solver_graphic.svg', style={'position':'relative', 'bottom':'85px', 'verticalAlign':'inherit'},
+                                                        id='run_model_btn')
+                                                    # dbc.Button('Run Model', id='run_model_btn', className='d-block'),
+                                                ], className='d-inline-block', style={'width': '33%'})
                                                 
                                             ])
                                         , className='w-100')
@@ -218,7 +220,7 @@ app.layout = html.Div([
 clientside_callback(
     """
     function(knob_value){
-        return "Economy Units: " + knob_value
+        return "Economy Units: " + knob_value.toLocaleString(undefined, {maximumFractionDigits:1})
     }
     """,
     Output('economy_knob_label', 'children'),
@@ -228,7 +230,7 @@ clientside_callback(
 clientside_callback(
     """
     function(knob_value){
-        return "Deluxe Units: " + knob_value
+        return "Deluxe Units: " + knob_value.toLocaleString(undefined, {maximumFractionDigits:1})
     }
     """,
     Output('deluxe_knob_label', 'children'),
@@ -337,7 +339,7 @@ def calc_profit(econ_units, deluxe_units) -> float:
     gross_rev = econ_units*data['economy_price'] + deluxe_units*data['deluxe_price']
     labor_costs = 0
     for dept in data['dept']:
-        labor_costs += (econ_units*dept['economy']/3600 + deluxe_units*dept['deluxe']/3600)*data['shop_labor_rate']
+        labor_costs += (econ_units*dept['economy']/3600 + deluxe_units*dept['deluxe']/3600)*data['shop_labor_rate']*60
 
     matl_costs = 0
     for part_det in data['parts']:
@@ -358,7 +360,7 @@ def calc_profit(econ_units, deluxe_units) -> float:
     prevent_initial_call=True
 )
 def run_lp_model(clicks):
-    econ_units, deluxe_units = run_lp_model(data)
+    econ_units, deluxe_units = solve_lp_model(data)
     return econ_units, deluxe_units
 
 @callback(

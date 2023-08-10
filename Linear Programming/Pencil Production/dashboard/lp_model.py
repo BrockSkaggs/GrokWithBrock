@@ -95,11 +95,15 @@ def build_lp_model(data: dict, unit_profits: Dict[str, float]) -> pe.ConcreteMod
         model.inv_loads.add(lhs <= rhs)
     return model
 
-def run_lp_model(data: dict) -> tuple:
+def solve_lp_model(data: dict) -> tuple:
     unit_profits = calc_unit_profit(data)
     model = build_lp_model(data, unit_profits)
 
-    # solver = po.SolverFactory('glpk')
-    # result = solver.solve(model, tee=True)
+    solver = po.SolverFactory('glpk')
+    result = solver.solve(model, tee=True)
 
-    return 1000,1500
+    result_econ, result_del = 0, 0
+    if result.solver.termination_condition == po.TerminationCondition.optimal:
+        result_econ = model.x_econ.value
+        result_del = model.x_del.value
+    return result_econ, result_del
