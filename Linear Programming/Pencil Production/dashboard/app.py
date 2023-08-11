@@ -10,7 +10,6 @@ import pandas as pd
 
 from lp_model import solve_lp_model
 
-
 def read_data_file() -> dict:
     f =open('data.json')
     data = json.load(f)
@@ -45,7 +44,8 @@ app.layout = html.Div([
                                                         id='economy_units_knob',
                                                         max=10000,
                                                         value=1000,
-                                                        className='text-center'
+                                                        className='text-center',
+                                                        color='#007bff'
                                                     ),
                                                     html.Div([], id='economy_knob_label', className='text-center'),
                                                 ], className='d-inline-block', style={'width': '33%'}),
@@ -54,14 +54,14 @@ app.layout = html.Div([
                                                         id='deluxe_units_knob',
                                                         max=10000,
                                                         value=1000,
-                                                        className='text-center'
+                                                        className='text-center',
+                                                        color='#007bff'
                                                     ),
                                                     html.Div([], id='deluxe_knob_label', className='text-center'),
                                                 ], className='d-inline-block', style={'width': '33%'}),
                                                 html.Div([
                                                     html.Img([], src='assets/run_solver_graphic.svg', className='d-block mx-auto', style={'width':'120px', 'height':'100%', 'verticalAlign':'middle'},
                                                         id='run_model_btn')
-                                                    # dbc.Button('Run Model', id='run_model_btn', className='d-block'),
                                                 ], className='d-inline-block h-100', style={'width': '33%'})
                                                 
                                             ])
@@ -88,6 +88,11 @@ app.layout = html.Div([
                                             ])
                                         )
                                     ], className='col-lg-6')
+                                ], className='row mt-1'),
+                                html.Div([
+                                    html.Div([
+                                        html.P('Model uses continuous real decision variables to represent the quantity of each product to produce.', className='font-italic')
+                                    ], className='col-12')
                                 ], className='row mt-1')
                             ], className='container-fluid mt-2')
                         ], label='Analysis'),
@@ -101,6 +106,7 @@ app.layout = html.Div([
                                                 dag.AgGrid(
                                                     id='parts_grid',
                                                     defaultColDef={'editable':True},
+                                                    columnSize='responsiveSizeToFit',
                                                     columnDefs=[
                                                         {'field': 'part', 'headerName': 'Part'},
                                                         {'field': 'cost', 'headerName': 'Cost', 'valueFormatter': {"function": "'$' + (params.value)"}},
@@ -119,6 +125,7 @@ app.layout = html.Div([
                                                 dag.AgGrid(
                                                     id='bom_grid',
                                                     defaultColDef={'editable':True},
+                                                    columnSize='responsiveSizeToFit',
                                                     columnDefs=[
                                                         {'field': 'part', 'headerName': 'Part'},
                                                         {'field': 'economy', 'headerName': 'Economy'},
@@ -139,6 +146,7 @@ app.layout = html.Div([
                                                 dag.AgGrid(
                                                     id='dept_grid',
                                                     defaultColDef={'editable':True},
+                                                    columnSize='responsiveSizeToFit',
                                                     columnDefs=[
                                                         {'field': 'dept', 'headerName': 'Department'},
                                                         {'field': 'economy', 'headerName': 'Economy (Seconds)'},
@@ -269,7 +277,7 @@ def gen_dept_load_figure(econ_units, deluxe_units) -> Dict[go.Figure, pd.DataFra
     ]
 
     layout = {
-        'title': {'text':'Department Loads'}
+        'title': {'text':'Department Loads', 'font': {'size': 25}}
     }
 
     fig =go.Figure(data=traces, layout=layout)
@@ -309,7 +317,7 @@ def gen_inv_load_figure(econ_units, deluxe_units) -> Dict[go.Figure, pd.DataFram
     ]
 
     layout = {
-        'title': {'text':'Inventory Loads'}
+        'title': {'text':'Inventory Loads', 'font': {'size': 25}}
     }
 
     return go.Figure(data=traces, layout=layout), part_loads_df
