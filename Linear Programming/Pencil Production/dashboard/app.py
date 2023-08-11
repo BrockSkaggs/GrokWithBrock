@@ -59,10 +59,10 @@ app.layout = html.Div([
                                                     html.Div([], id='deluxe_knob_label', className='text-center'),
                                                 ], className='d-inline-block', style={'width': '33%'}),
                                                 html.Div([
-                                                    html.Img([], src='assets/run_solver_graphic.svg', style={'position':'relative', 'bottom':'85px', 'verticalAlign':'inherit'},
+                                                    html.Img([], src='assets/run_solver_graphic.svg', className='d-block mx-auto', style={'width':'120px', 'height':'100%', 'verticalAlign':'middle'},
                                                         id='run_model_btn')
                                                     # dbc.Button('Run Model', id='run_model_btn', className='d-block'),
-                                                ], className='d-inline-block', style={'width': '33%'})
+                                                ], className='d-inline-block h-100', style={'width': '33%'})
                                                 
                                             ])
                                         , className='w-100')
