@@ -92,7 +92,7 @@ app.layout = html.Div([
                                 ], className='row mt-1'),
                                 html.Div([
                                     html.Div([
-                                        html.P('Model uses continuous real decision variables to represent the quantity of each product to produce.', className='font-italic')
+                                        html.P('Model uses continuous real decision variables to represent the quantity of each product to produce.  Optimal values are rounded down to the nearest integer.', className='font-italic')
                                     ], className='col-12')
                                 ], className='row mt-1')
                             ], className='container-fluid mt-2')
