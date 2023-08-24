@@ -1,5 +1,6 @@
 import json
 from typing import Dict, Tuple
+import math
 
 from dash import Dash, html, dcc, clientside_callback, Input, Output, State, callback
 import dash_ag_grid as dag
@@ -249,11 +250,11 @@ clientside_callback(
 def calc_bar_color(load_frac: float) -> str:
     return 'crimson' if load_frac > 1 else 'lightslategray'
 
-def gen_dept_load_figure(econ_units, deluxe_units) -> Dict[go.Figure, pd.DataFrame]:
+def gen_dept_load_figure(econ_units, deluxe_units, ui_data) -> Dict[go.Figure, pd.DataFrame]:
     dept_loads = []
     bar_colors = []
     bar_txts = []
-    for item in data['dept']:
+    for item in ui_data['dept']:
         load = econ_units*item['economy']/3600 + deluxe_units*item['deluxe']/3600
         load_frac = load/item['capacity']
         bar_colors.append(calc_bar_color(load_frac))
@@ -283,12 +284,12 @@ def gen_dept_load_figure(econ_units, deluxe_units) -> Dict[go.Figure, pd.DataFra
     fig =go.Figure(data=traces, layout=layout)
     return fig, dept_load_df
 
-def gen_inv_load_figure(econ_units, deluxe_units) -> Dict[go.Figure, pd.DataFrame]:
+def gen_inv_load_figure(econ_units, deluxe_units, ui_data) -> Dict[go.Figure, pd.DataFrame]:
     part_loads = []
     bar_colors = []
     bar_txts = []
-    for bom_item in data['bom']:
-        inv_det = next((p for p in data['parts'] if p['part'] == bom_item['part']), None)
+    for bom_item in ui_data['bom']:
+        inv_det = next((p for p in ui_data['parts'] if p['part'] == bom_item['part']), None)
         econ_unit_burden = bom_item['economy'] if bom_item['uom'] != 'OZ' else bom_item['economy']/16
         deluxe_unit_burden = bom_item['deluxe'] if bom_item['uom'] != 'OZ' else bom_item['deluxe']/16
 
@@ -361,15 +362,46 @@ def calc_profit(econ_units, deluxe_units) -> float:
         matl_costs += (econ_units*econ_part_unit_used + deluxe_units*deluxe_part_unit_used)*unit_cost
     return gross_rev - labor_costs - matl_costs
 
+def cond_ui_data(econ_price, deluxe_price, shop_rate, dept_rows, bom_rows, part_rows) -> dict:    
+    for dept in dept_rows:
+        dept['economy'] = float(dept['economy'])
+        dept['deluxe'] = float(dept['deluxe'])
+        dept['capacity'] = float(dept['capacity'])
+
+    for part in part_rows:
+        part['cost'] = float(part['cost'])
+        part['inv'] = float(part['inv'])
+
+    for part in bom_rows:
+        part['economy'] = float(part['economy'])
+        part['deluxe'] = float(part['deluxe'])
+
+    return {
+        'economy_price': econ_price,
+        'deluxe_price': deluxe_price,
+        'shop_labor_rate': shop_rate,
+        'parts': part_rows,
+        'bom': bom_rows,
+        'dept': dept_rows
+    }
+
 @callback(
     Output('economy_units_knob', 'value'),
     Output('deluxe_units_knob', 'value'),
     Input('run_model_btn', 'n_clicks'),
+    State("economy_price_input", "value"),
+    State('deluxe_price_input', 'value'),
+    State('shop_rate_input', 'value'),
+    State('dept_grid', 'rowData'),
+    State('bom_grid', 'rowData'),
+    State('parts_grid', 'rowData'),
     prevent_initial_call=True
 )
-def run_lp_model(clicks):
-    econ_units, deluxe_units = solve_lp_model(data)
-    return econ_units, deluxe_units
+def run_lp_model(_, econ_price, deluxe_price, shop_rate, dept_rows, bom_rows, part_rows):
+    ui_data = cond_ui_data(econ_price, deluxe_price, shop_rate, dept_rows, bom_rows, part_rows)
+    econ_units, deluxe_units = solve_lp_model(ui_data)
+    cond_econ_units, cond_deluxe_units = math.floor(econ_units), math.floor(deluxe_units)
+    return cond_econ_units, cond_deluxe_units
 
 @callback(
     Output('dept_load_chart', 'figure'),
@@ -377,11 +409,18 @@ def run_lp_model(clicks):
     Output('results_card_body', 'children'),
     Output('results_card_body', 'className'),
     Input('economy_units_knob', 'value'),
-    Input('deluxe_units_knob', 'value')
+    Input('deluxe_units_knob', 'value'),
+    State("economy_price_input", "value"),
+    State('deluxe_price_input', 'value'),
+    State('shop_rate_input', 'value'),
+    State('dept_grid', 'rowData'),
+    State('bom_grid', 'rowData'),
+    State('parts_grid', 'rowData'),
 )
-def update_post_calc(econ_units, deluxe_units):
-    dept_fig, dept_df = gen_dept_load_figure(econ_units, deluxe_units)
-    inv_fig, inv_df = gen_inv_load_figure(econ_units, deluxe_units)
+def update_post_calc(econ_units, deluxe_units, econ_price, deluxe_price, shop_rate, dept_rows, bom_rows, part_rows):
+    ui_data = cond_ui_data(econ_price, deluxe_price, shop_rate, dept_rows, bom_rows, part_rows)
+    dept_fig, dept_df = gen_dept_load_figure(econ_units, deluxe_units, ui_data)
+    inv_fig, inv_df = gen_inv_load_figure(econ_units, deluxe_units, ui_data)
     results_body, results_class = gen_results_card(econ_units, deluxe_units, dept_df, inv_df)
     return dept_fig, inv_fig, results_body, results_class
 

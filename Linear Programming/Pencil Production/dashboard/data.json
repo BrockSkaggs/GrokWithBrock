@@ -1,14 +1,14 @@
 {
     "parts": [
-        {"part": "Cedar Blank", "cost": "0.15", "inv": 15000, "uom": "EA"},
-        {"part": "Glue", "cost": "0.75", "inv": 1250, "uom": "LB"},
-        {"part": "Basic Lead", "cost": "0.45", "inv": 950, "uom": "LB"},
-        {"part": "Smooth Lead", "cost": "0.64", "inv": 1750, "uom": "LB"},
-        {"part": "Matte Paint", "cost": "0.57", "inv": 840, "uom": "LB"},
-        {"part": "Wood Stain", "cost": "0.89", "inv": 1100, "uom": "LB"},
-        {"part": "Ferrule", "cost": "0.10", "inv": 10000, "uom": "EA"},
-        {"part": "Eraser", "cost": "0.05", "inv": 32000, "uom": "LB"},
-        {"part": "Grip", "cost": "0.13", "inv": 20000, "uom": "LB"}
+        {"part": "Cedar Blank", "cost": 0.15, "inv": 15000, "uom": "EA"},
+        {"part": "Glue", "cost": 0.75, "inv": 1250, "uom": "LB"},
+        {"part": "Basic Lead", "cost": 0.45, "inv": 950, "uom": "LB"},
+        {"part": "Smooth Lead", "cost": 0.64, "inv": 1750, "uom": "LB"},
+        {"part": "Matte Paint", "cost": 0.57, "inv": 840, "uom": "LB"},
+        {"part": "Wood Stain", "cost": 0.89, "inv": 1100, "uom": "LB"},
+        {"part": "Ferrule", "cost": 0.10, "inv": 10000, "uom": "EA"},
+        {"part": "Eraser", "cost": 0.05, "inv": 32000, "uom": "LB"},
+        {"part": "Grip", "cost": 0.13, "inv": 20000, "uom": "LB"}
     ],
 
     "bom": [
