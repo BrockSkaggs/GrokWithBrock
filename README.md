@@ -10,3 +10,5 @@ A playlist of videos which introduces the viewer to linear programming via a pro
 - [Graphical Solution](https://youtu.be/Tmk6KIBYi5Q)
 - [MS Excel Solver](https://youtu.be/39a0NcQRycQ)
 - [Solution via Python, Pyomo & GLPK](https://youtu.be/_b-vrDxMPwI)
+- [Range of Optimality](https://youtu.be/gnEHL9RsVNU)
+- [Shadow Prices](https://youtu.be/q329b9xo51I)
