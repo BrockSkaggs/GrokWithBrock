@@ -20,6 +20,7 @@ def read_data_file() -> dict:
 data = read_data_file()
 
 app = Dash(__name__)
+server = app.server #Exposing Flask server for gunicorn
 
 app.layout = html.Div([
     html.Div([
@@ -61,11 +62,11 @@ app.layout = html.Div([
                                                     html.Div([], id='deluxe_knob_label', className='text-center'),
                                                 ], className='d-inline-block', style={'width': '33%'}),
                                                 html.Div([
-                                                    html.Img([], src='assets/run_solver_graphic.svg', className='d-block mx-auto', style={'width':'120px', 'height':'100%', 'verticalAlign':'middle'},
-                                                        id='run_model_btn')
-                                                ], className='d-inline-block h-100', style={'width': '33%'})
-                                                
-                                            ])
+                                                    html.Div([
+                                                        html.P(['Run Model'], style={'fontSize':'larger'}) 
+                                                    ], className='d-inline-block run-model-btn', id='run_model_btn'), 
+                                                ], style={'width': '33%', 'justifyContent': 'center', 'alignItems': 'center'}, className='text-center d-flex')
+                                            ], className='d-flex')
                                         , className='w-100')
                                     ], className='col-lg-6 d-flex'),
                                     html.Div([

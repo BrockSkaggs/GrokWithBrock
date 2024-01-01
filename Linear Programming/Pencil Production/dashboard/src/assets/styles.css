@@ -1,0 +1,43 @@
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    background: lightslategray
+}
+
+.card{
+    background:rgba(255,255,255,0.9);
+}
+
+.feasible{
+    background: #007bff;
+    color: white;
+    border-radius: 0.2em;
+}
+
+.infeasible{
+    background: crimson;
+    color: white;
+    border-radius: 0.2em;
+}
+
+.run-model-btn{
+    border-radius: 50%;
+    /* background-color: #007bff;
+    color: white; */
+    border: 2px solid #007bff;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    line-height: 150px;
+    transform: translateY(-16px);
+}
+
+.run-model-btn:hover{
+    background-color: #006de2;
+    box-shadow: 0 0 2px 2px #1183fd;
+    color: white;
+}
