@@ -1,7 +1,7 @@
 # Pencil Production
 
 ## Problem
-Consider the Easy Writers company which manufactures and sells wooden pencils.  The company has two products two products.  The *Economy Writer* is a no frills basic pencil which is intended to appeal to the cost concsious buyer.  The *Deluxe Writer* is a luxury pencil which has an improved appearance and also comes with a comfort grip component.  The table below lists the sell price for each product.
+Consider the Easy Writers company which manufactures and sells wooden pencils.  The company has two products.  The *Economy Writer* is a no frills basic pencil which is intended to appeal to the cost concsious buyer.  The *Deluxe Writer* is a luxury pencil which has an improved appearance and also comes with a comfort grip component.  The table below lists the sell price for each product.
 
 |Product|Sell Price|
 |--|--|
@@ -12,9 +12,9 @@ Consider the Easy Writers company which manufactures and sells wooden pencils.  
 1. Both pencils are produced from cedar blanks which are rectangular pieces of wood.  Each blank can produce 10 pencils.
 2. The cedar blanks are sent to the *Preprocessing Department* where grooves are cut in each blank to hold the lead. 
 3. The processed blanks move to the *Curing Department* where they are are combined with glue and lead.  
-    1. The lead component is different for each product.  The *Economy Writer* uses a lower cost material which is common in the industry.  The *Deluxe Writer* uses a propriatry special blend which improves the smoothness of the wirting.
-4. The blanks next move the *Shaping Department* where the blanks are separated into individual pencils.  The two products have different outer contours which results in different labor times within this department.  This department also applies the correct finishing to each product.  The *Economy Writer* receives a matte paint while the *Deluxe Writer* is stained.
-5. The pencils next move to the *Assembly Department* where the pencil bodies are combined with an aluminum ferrule and eraser.  The *Deluxe Writer* also is combined with a rubber grip.  Packaging is the products is also performed in this area.
+    1. The lead component is different for each product.  The *Economy Writer* uses a lower cost material which is common in the industry.  The *Deluxe Writer* uses a propriatry special blend which improves the smoothness of the writing.
+4. The blanks next move the *Shaping Department* where the blanks are separated into individual pencils.  The two products have different outer contours which results in different labor times within this department.  This department also applies the correct finish to each product.  The *Economy Writer* receives a matte paint while the *Deluxe Writer* is stained.
+5. The pencils next move to the *Assembly Department* where the pencil bodies are combined with an aluminum ferrule and eraser.  The *Deluxe Writer* also is combined with a rubber grip.  Packaging of the products is also performed in this area.
 
 The table below shows the labor time consumed per each pencil in every department.  Note that the company labor rate can be taken as $0.65 per minute.  It also states the department's labor capacity.
 
