@@ -1,0 +1,157 @@
+/* O'Reilly-inspired green/red accent theme.
+ *
+ * Dash serves everything in assets/ alphabetically, so this file loads after
+ * bootstrap.css and overrides it. bootstrap.css stays the untouched stock
+ * build so it can be swapped for a newer one without losing this theme.
+ *
+ * Python-side counterparts of these colors live in common.py (BRAND_GREEN,
+ * BRAND_RED, MAP_STORE_GRAY) for the Plotly figures; keep the two in sync.
+ */
+
+/* ---------------------------------------------------------------- tokens */
+
+:root {
+	--brand-green: #00713C;
+	--brand-green-dark: #00522B;
+	--brand-green-tint: #E8F4EC;
+	--brand-red: #C8102E;
+
+	/* Three-step surface ramp: shell -> page -> content card. */
+	--surface-sunken: #EDECE7;
+	--surface-page: #F5F4F0;
+	--surface-raised: #FFFFFF;
+
+	--brand-ink: #1F2421;
+	--brand-line: #DDDCD5;
+
+	/* Repoint Bootstrap's own tokens so stock components inherit the theme.
+	 * The -rgb triplets matter: Bootstrap builds its rgba() alphas (focus
+	 * rings, .text-bg-*) from them, and leaving them stock shows up as blue
+	 * ghosts around otherwise-green controls. */
+	--bs-body-bg: var(--surface-page);
+	--bs-body-color: var(--brand-ink);
+	--bs-body-color-rgb: 31, 36, 33;
+	--bs-emphasis-color: var(--brand-ink);
+
+	--bs-primary: var(--brand-green);
+	--bs-primary-rgb: 0, 113, 60;
+	--bs-primary-text-emphasis: var(--brand-green-dark);
+	--bs-primary-bg-subtle: var(--brand-green-tint);
+	--bs-primary-border-subtle: #A9D2B9;
+
+	--bs-danger: var(--brand-red);
+	--bs-danger-rgb: 200, 16, 46;
+
+	--bs-link-color: var(--brand-green);
+	--bs-link-color-rgb: 0, 113, 60;
+	--bs-link-hover-color: var(--brand-green-dark);
+	--bs-link-hover-color-rgb: 0, 82, 43;
+
+	--bs-border-color: var(--brand-line);
+	--bs-border-color-translucent: rgba(31, 36, 33, 0.12);
+}
+
+/* ---------------------------------------------------------------- header */
+
+/* Styled by ID rather than by adding a className to the H1: app.py uses
+ * Input('title', 'className') as a fire-on-load trigger for the map-view
+ * dropdown, and that wiring should stay visibly unrelated to styling. */
+#title {
+	/* Small top gap so the rounded top corners read as intentional; the tabs
+	 * row sits flush underneath, hence the squared bottom. */
+	margin: 0.75rem 0 0;
+	padding: 0.85rem 1.25rem;
+	font-size: 1.6rem;
+	font-weight: 700;
+	letter-spacing: 0.01em;
+	color: #FFFFFF;
+	background: linear-gradient(180deg, var(--brand-green) 0%, var(--brand-green-dark) 100%);
+	border-radius: 8px 8px 0 0;
+}
+
+/* ------------------------------------------------------------------ tabs */
+
+.nav-tabs {
+	--bs-nav-tabs-border-color: var(--brand-line);
+	--bs-nav-tabs-link-active-color: var(--brand-green-dark);
+	--bs-nav-tabs-link-active-bg: var(--surface-raised);
+	--bs-nav-tabs-link-active-border-color: var(--brand-line) var(--brand-line) var(--surface-raised);
+	--bs-nav-tabs-link-hover-border-color: transparent transparent var(--brand-line);
+	--bs-nav-link-color: #5A615C;
+	--bs-nav-link-hover-color: var(--brand-green);
+	font-weight: 500;
+}
+
+.nav-tabs .nav-link.active {
+	/* Green cap ties the active tab to the panel beneath it. */
+	border-top: 3px solid var(--brand-green);
+	font-weight: 600;
+}
+
+/* ----------------------------------------------------------------- cards */
+
+/* The layout nests cards exactly two deep: a shell card per tab wrapping
+ * content cards. `.card .card` (0,2,0) outranks `.card` (0,1,0), so the tiers
+ * separate on specificity alone -- no markup changes, and it holds for both
+ * app.py and aio/lp_results_view.py. */
+.card {
+	background-color: var(--surface-sunken);
+	border: 0;
+	border-radius: 10px;
+	box-shadow: none;
+}
+
+.card .card {
+	background-color: var(--surface-raised);
+	border: 1px solid var(--brand-line);
+	border-top: 3px solid var(--brand-green);
+	border-radius: 8px;
+	box-shadow: 0 1px 3px rgba(31, 36, 33, 0.07);
+}
+
+/* Section headings inside content cards. */
+.card .card h5 {
+	font-size: 1rem;
+	font-weight: 600;
+	color: var(--brand-green-dark);
+	padding-bottom: 0.35rem;
+	border-bottom: 2px solid var(--brand-green-tint);
+}
+
+/* -------------------------------------------------------------- readouts */
+
+/* Cost readout beside the product selector on the Solution tab. The nudge
+ * lines it up with the Mantine Select in the adjacent column, the same trick
+ * app.py uses inline for #map_view_note. */
+.summary-metric {
+	display: inline-block;
+	position: relative;
+	top: 5px;
+	font-size: 1.15rem;
+	font-weight: 700;
+	color: var(--brand-green-dark);
+}
+
+/* --------------------------------------------------------------- ag-grid */
+
+/* Both grids run AG Grid's Theming API (dashGridOptions theme: 'themeBalham'),
+ * where the theme is driven by --ag-* custom properties on the grid wrapper
+ * and the legacy .ag-theme-balham class is inert. */
+.ag-root-wrapper {
+	--ag-accent-color: var(--brand-green);
+	--ag-active-color: var(--brand-green);
+	--ag-header-background-color: var(--brand-green-tint);
+	--ag-header-foreground-color: var(--brand-green-dark);
+	--ag-header-text-color: var(--brand-green-dark);
+	--ag-row-hover-color: #F2F7F4;
+	--ag-selected-row-background-color: var(--brand-green-tint);
+	--ag-border-color: var(--brand-line);
+	--ag-foreground-color: var(--brand-ink);
+	border-color: var(--brand-line);
+}
+
+/* Pinned totals rows are already bolded in Python via getRowStyle; this only
+ * adds the tint that separates them from the data below. */
+.ag-row-pinned {
+	background-color: var(--brand-green-tint);
+}

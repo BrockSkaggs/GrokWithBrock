@@ -1,0 +1,27 @@
+[
+    {
+        "pn": "AS242",
+        "desc": "Prestone Windshield De-Icer",
+        "price": 5.29
+    },
+    {
+        "pn": "AS240",
+        "desc": "Prestone 15.5 Ounce Windshield De-Icer",
+        "price": 3.99
+    },
+    {
+        "pn": "16024",
+        "desc": "Hopkins SubZero 21-1/2 Inch Snow Brush",
+        "price": 6.49
+    },
+    {
+        "pn": "17228",
+        "desc": "Hopkins SubZero Auto Emergency Shovel",
+        "price": 15.99
+    },
+    {
+        "pn": "20",
+        "desc": "Scotwood Industries Traction Melt Driveway De-Icer & Ice Melt",
+        "price": 9.99
+    }
+]

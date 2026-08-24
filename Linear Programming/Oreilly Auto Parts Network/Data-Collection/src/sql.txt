@@ -1,0 +1,39 @@
+create table store_location (store_id text primary key not null, street text not null, city text not null, state text not null, zip text, lat real, lon real);
+create table dist_center_location (dc_id integer primary key, street text not null, city text not null, state text not null, zip text, lat real, lon real);
+create table product (pn text primary key not null, desc text, price real);
+
+create table snowfall (
+  store_id text primary key not null,
+  depth_in real,
+  foreign key (store_id) references store_location (store_id)
+);
+
+
+create table store_product_demand (
+    store_id text not null,
+    product_pn text not null,
+    amount integer,
+    foreign key (store_id) references store_location (store_id),
+    foreign key (product_pn) references product (pn),
+    primary key (store_id, product_pn)
+);
+
+create table dist_center_product_supply (
+  dc_id integer not null,
+  product_pn text not null,
+  amount integer,
+  foreign key (dc_id) references dist_center_location (dc_id),
+  foreign key (product_pn) references product (pn),
+  primary key (dc_id, product_pn)
+);
+
+create table product_trans_cost (
+  dc_id integer not null,
+  store_id text not null,
+  product_pn text not null,
+  cost real,
+  foreign key (dc_id) references dist_center_location (dc_id),
+  foreign key (store_id) references store_location (store_id),
+  foreign key (product_pn) references product (pn),
+  primary key (dc_id, store_id, product_pn)
+);

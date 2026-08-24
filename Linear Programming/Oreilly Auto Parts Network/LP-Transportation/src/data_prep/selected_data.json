@@ -1,0 +1,1642 @@
+[
+    {
+        "curveNumber": 0,
+        "pointNumber": 16,
+        "pointIndex": 16,
+        "lon": -86.82745489974661,
+        "lat": 33.21390571071265,
+        "text": "2023 - 9225 Highway 119 - Alabaster, AL"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 17,
+        "pointIndex": 17,
+        "lon": -86.20053018165783,
+        "lat": 34.274171598591124,
+        "text": "1261 - 6921 Us Highway 431 - Albertville, AL"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 19,
+        "pointIndex": 19,
+        "lon": -85.89520743420968,
+        "lat": 33.778224053048405,
+        "text": "5171 - 7390 Us Hwy 431 - Alexandria, AL"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 21,
+        "pointIndex": 21,
+        "lon": -85.82573090772468,
+        "lat": 33.64184832120952,
+        "text": "1115 - 429 S Quintard Ave - Anniston, AL"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 22,
+        "pointIndex": 22,
+        "lon": -85.82317157183064,
+        "lat": 33.68506851267898,
+        "text": "1208 - 3224 Mcclellan Boulevard - Anniston, AL"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 23,
+        "pointIndex": 23,
+        "lon": -86.50294004727539,
+        "lat": 34.32319345732702,
+        "text": "1312 - 530 N Brindlee Mtn Pkwy - Arab, AL"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 25,
+        "pointIndex": 25,
+        "lon": -86.96449135965827,
+        "lat": 34.78868433934542,
+        "text": "914 - 910 Highway 72 East - Athens, AL"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 27,
+        "pointIndex": 27,
+        "lon": -86.09845448696416,
+        "lat": 33.99680398123377,
+        "text": "1668 - 723 Gilbert Ferry Rd Se - Attalla, AL"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 30,
+        "pointIndex": 30,
+        "lon": -86.96332021483653,
+        "lat": 33.40387377337839,
+        "text": "2265 - 1632 9th Avenue North - Bessemer, AL"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 31,
+        "pointIndex": 31,
+        "lon": -86.8496980515792,
+        "lat": 33.505418426298036,
+        "text": "1132 - 830 3rd Ave W - Birmingham, AL"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 32,
+        "pointIndex": 32,
+        "lon": -86.7310029338339,
+        "lat": 33.55938575466274,
+        "text": "1260 - 7504 1st Ave N - Birmingham, AL"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 33,
+        "pointIndex": 33,
+        "lon": -86.89677700399199,
+        "lat": 33.56639695724323,
+        "text": "1332 - 1511 Forestdale Boulevard - Birmingham, AL"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 34,
+        "pointIndex": 34,
+        "lon": -86.69603981939065,
+        "lat": 33.58796152000946,
+        "text": "1639 - 260 Gadsden Highway - Birmingham, AL"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 35,
+        "pointIndex": 35,
+        "lon": -86.15660063763522,
+        "lat": 34.214123761468045,
+        "text": "1359 - 1971 Us Highway 431 - Boaz, AL"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 36,
+        "pointIndex": 36,
+        "lon": -87.16987495505897,
+        "lat": 32.959008294716845,
+        "text": "5141 - 10438 Hwy 5 - Brent, AL"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 38,
+        "pointIndex": 38,
+        "lon": -86.7525229039424,
+        "lat": 33.107024736520316,
+        "text": "2438 - 8001 Hwy 31 - Calera, AL"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 39,
+        "pointIndex": 39,
+        "lon": -86.68497378946421,
+        "lat": 33.63169076697409,
+        "text": "1337 - 1650 Center Point Pkwy - Center Point, AL"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 40,
+        "pointIndex": 40,
+        "lon": -85.7076426507557,
+        "lat": 34.15839505206051,
+        "text": "1881 - 1635 West Main Street - Centre, AL"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 41,
+        "pointIndex": 41,
+        "lon": -86.36207603746402,
+        "lat": 33.283896862351526,
+        "text": "5382 - 32237 Us Hwy 280 - Childersburg, AL"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 43,
+        "pointIndex": 43,
+        "lon": -86.62945882260271,
+        "lat": 32.83603015175919,
+        "text": "1175 - 207 7th St S - Clanton, AL"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 44,
+        "pointIndex": 44,
+        "lon": -86.60618419584341,
+        "lat": 33.6985131095509,
+        "text": "6369 - 6701 Deerfoot Pkwy - Clay, AL"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 45,
+        "pointIndex": 45,
+        "lon": -86.6150335557785,
+        "lat": 33.180067640097604,
+        "text": "4845 - 222 West College Street - Columbiana, AL"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 46,
+        "pointIndex": 46,
+        "lon": -86.85093420758972,
+        "lat": 34.18605490059312,
+        "text": "1038 - 917 2nd Ave Nw - Cullman, AL"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 47,
+        "pointIndex": 47,
+        "lon": -86.95767738932258,
+        "lat": 34.24427746993866,
+        "text": "6627 - 11590 Al Highway 157 - Cullman, AL"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 50,
+        "pointIndex": 50,
+        "lon": -86.98037827527946,
+        "lat": 34.591113390955,
+        "text": "1042 - 1109 6th Avenue Southeast - Decatur, AL"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 51,
+        "pointIndex": 51,
+        "lon": -87.02388033888934,
+        "lat": 34.584214599278596,
+        "text": "2114 - 2202 Beltline Road Sw - Decatur, AL"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 65,
+        "pointIndex": 65,
+        "lon": -85.7308665889372,
+        "lat": 34.43206788947754,
+        "text": "1251 - 801 Gault Ave South - Fort Payne, AL"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 66,
+        "pointIndex": 66,
+        "lon": -86.79729691877606,
+        "lat": 33.61128797945934,
+        "text": "1644 - 301 Walker Chapel Plaza - Fultondale, AL"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 67,
+        "pointIndex": 67,
+        "lon": -86.04400081721423,
+        "lat": 34.02273698181398,
+        "text": "1059 - 2603 West Meighan Blvd - Gadsden, AL"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 68,
+        "pointIndex": 68,
+        "lon": -85.99307509737355,
+        "lat": 34.00967024494031,
+        "text": "1075 - 107 Hood Ave - Gadsden, AL"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 69,
+        "pointIndex": 69,
+        "lon": -86.81266164587122,
+        "lat": 33.653591664679155,
+        "text": "6572 - 1022 Main St - Gardendale, AL"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 71,
+        "pointIndex": 71,
+        "lon": -85.93234408471324,
+        "lat": 33.95600558891863,
+        "text": "5415 - 420 W Chastain Blvd - Glencoe, AL"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 74,
+        "pointIndex": 74,
+        "lon": -86.28482372144799,
+        "lat": 34.30407974335799,
+        "text": "1319 - 11717 Us Highway 431 S - Guntersville, AL"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 75,
+        "pointIndex": 75,
+        "lon": -87.62136919141511,
+        "lat": 34.22214693478344,
+        "text": "1197 - 1586 11th Avenue - Haleyville, AL"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 77,
+        "pointIndex": 77,
+        "lon": -86.78015993436271,
+        "lat": 34.07634435573745,
+        "text": "4656 - 836 Main Street Ne - Hanceville, AL"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 78,
+        "pointIndex": 78,
+        "lon": -86.94316326207847,
+        "lat": 34.443675152892844,
+        "text": "1079 - 301 Highway 31 Nw - Hartselle, AL"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 79,
+        "pointIndex": 79,
+        "lon": -86.71032803710415,
+        "lat": 34.84336840337812,
+        "text": "4937 - 5804 Hwy 53 - Harvest, AL"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 80,
+        "pointIndex": 80,
+        "lon": -86.57190000380706,
+        "lat": 34.93126832520824,
+        "text": "1741 - 14187 Hwy 231/431 North - Hazel Green, AL"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 82,
+        "pointIndex": 82,
+        "lon": -85.58776315197946,
+        "lat": 33.6449086974755,
+        "text": "5254 - 609 Ross St - Heflin, AL"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 83,
+        "pointIndex": 83,
+        "lon": -86.85266791949442,
+        "lat": 33.27697503481795,
+        "text": "5367 - 4949 Highway 17 - Helena, AL"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 84,
+        "pointIndex": 84,
+        "lon": -86.82562261295323,
+        "lat": 33.472890153336266,
+        "text": "1256 - 48 Green Springs Highway - Homewood, AL"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 85,
+        "pointIndex": 85,
+        "lon": -86.80621828754897,
+        "lat": 33.40478222635414,
+        "text": "5135 - 1559 Montgomery Hwy - Hoover, AL"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 86,
+        "pointIndex": 86,
+        "lon": -86.69001356354602,
+        "lat": 33.41811614918862,
+        "text": "6619 - 40 Meadowview Dr - Hoover, AL"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 87,
+        "pointIndex": 87,
+        "lon": -86.96220967263042,
+        "lat": 33.45764447217499,
+        "text": "1491 - 770 Alison-bonnett Mem Dr - Hueytown, AL"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 88,
+        "pointIndex": 88,
+        "lon": -86.59586578482208,
+        "lat": 34.711216045250296,
+        "text": "948 - 2317 Bob Wallace Ave Sw - Huntsville, AL"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 89,
+        "pointIndex": 89,
+        "lon": -86.64308541180162,
+        "lat": 34.76107756221853,
+        "text": "1135 - 2624 Jordan Ln Nw - Huntsville, AL"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 90,
+        "pointIndex": 90,
+        "lon": -86.59883492835064,
+        "lat": 34.763322636949795,
+        "text": "1207 - 2579 Sparkman Drive Nw - Huntsville, AL"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 91,
+        "pointIndex": 91,
+        "lon": -86.56730064102231,
+        "lat": 34.62200479501428,
+        "text": "1392 - 11370 Memorial Pkwy Sw - Huntsville, AL"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 92,
+        "pointIndex": 92,
+        "lon": -86.57710616447622,
+        "lat": 34.744329084256194,
+        "text": "1953 - 801 Andrew Jackson Way Ne - Huntsville, AL"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 93,
+        "pointIndex": 93,
+        "lon": -86.49066662170617,
+        "lat": 34.81795779300319,
+        "text": "4939 - 2260 Winchester Rd Ne - Huntsville, AL"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 94,
+        "pointIndex": 94,
+        "lon": -86.7067391615874,
+        "lat": 33.53170533939635,
+        "text": "1195 - 1709 Crestwood Boulevard - Irondale, AL"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 96,
+        "pointIndex": 96,
+        "lon": -85.76378059280086,
+        "lat": 33.82966598641849,
+        "text": "1196 - 1031 Pelham Rd S - Jacksonville, AL"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 97,
+        "pointIndex": 97,
+        "lon": -87.24707282527366,
+        "lat": 33.84276791419325,
+        "text": "1746 - 2321 Highway 78 East - Jasper, AL"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 98,
+        "pointIndex": 98,
+        "lon": -86.74364017700759,
+        "lat": 32.959533685354245,
+        "text": "5157 - 24744 Us Hwy 31 - Jemison, AL"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 100,
+        "pointIndex": 100,
+        "lon": -86.52614873371704,
+        "lat": 33.557103117498286,
+        "text": "1198 - 1561 Ashville Road - Leeds, AL"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 102,
+        "pointIndex": 102,
+        "lon": -86.11592293486683,
+        "lat": 33.604294470068,
+        "text": "5297 - 47796 Us Highway 78 - Lincoln, AL"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 104,
+        "pointIndex": 104,
+        "lon": -86.74967053449978,
+        "lat": 34.75376534124899,
+        "text": "1313 - 5941 Wall Triana Highway - Madison, AL"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 105,
+        "pointIndex": 105,
+        "lon": -86.7519194862661,
+        "lat": 34.67912284404542,
+        "text": "1314 - 3714 Sullivan Street - Madison, AL"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 106,
+        "pointIndex": 106,
+        "lon": -86.78662431263382,
+        "lat": 34.700925990518044,
+        "text": "6356 - 11190 County Line Rd - Madison, AL"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 107,
+        "pointIndex": 107,
+        "lon": -86.57058499156022,
+        "lat": 34.865142773278,
+        "text": "5180 - 12094 Highway 231 431 N - Meridianville, AL"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 108,
+        "pointIndex": 108,
+        "lon": -86.928346271642,
+        "lat": 33.447829288776596,
+        "text": "1263 - 5320 Bessemer Super Hwy - Midfield, AL"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 125,
+        "pointIndex": 125,
+        "lon": -86.4944010646926,
+        "lat": 33.59244069053076,
+        "text": "4959 - 3009 Moody Parkway - Moody, AL"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 126,
+        "pointIndex": 126,
+        "lon": -87.27670430659936,
+        "lat": 34.48824406792505,
+        "text": "966 - 11931 Al Highway 157 - Moulton, AL"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 128,
+        "pointIndex": 128,
+        "lon": -86.43372816873148,
+        "lat": 34.55154683010488,
+        "text": "5484 - 10129 Highway 431 S - New Hope, AL"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 129,
+        "pointIndex": 129,
+        "lon": -87.58183028436764,
+        "lat": 33.24036322275947,
+        "text": "1063 - 2491 Mcfarland Blvd, Ste F - Northport, AL"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 130,
+        "pointIndex": 130,
+        "lon": -87.60244003405454,
+        "lat": 33.30453179910026,
+        "text": "5279 - 4501 Rose Blvd - Northport, AL"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 131,
+        "pointIndex": 131,
+        "lon": -86.4044170262865,
+        "lat": 33.67762494892209,
+        "text": "6680 - 455 Odenville Place - Odenville, AL"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 132,
+        "pointIndex": 132,
+        "lon": -86.45973902326199,
+        "lat": 33.96294974832949,
+        "text": "978 - 1610 2nd Ave E - Oneonta, AL"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 136,
+        "pointIndex": 136,
+        "lon": -86.48914294337392,
+        "lat": 34.65938972699838,
+        "text": "5034 - 34 Taylor Road - Owens Cross Roads, AL"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 137,
+        "pointIndex": 137,
+        "lon": -85.8000377606943,
+        "lat": 33.61482538673221,
+        "text": "1116 - 1828 Us Highway 78 E - Oxford, AL"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 139,
+        "pointIndex": 139,
+        "lon": -86.80836777676882,
+        "lat": 33.26516022516893,
+        "text": "4559 - 101 Village Drive - Pelham, AL"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 140,
+        "pointIndex": 140,
+        "lon": -86.79693945551787,
+        "lat": 33.27888951244455,
+        "text": "6343 - 2176 Highway 52 E - Pelham, AL"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 141,
+        "pointIndex": 141,
+        "lon": -86.28247795362977,
+        "lat": 33.597462215685816,
+        "text": "4873 - 902 Martin Street North - Pell City, AL"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 144,
+        "pointIndex": 144,
+        "lon": -85.61076184915677,
+        "lat": 33.932759667077036,
+        "text": "6639 - 201 Us Hwy 278 Byp W - Piedmont, AL"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 145,
+        "pointIndex": 145,
+        "lon": -86.68131082490673,
+        "lat": 33.69418113769902,
+        "text": "5142 - 4675 Pinson Blvd - Pinson, AL"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 147,
+        "pointIndex": 147,
+        "lon": -86.88965920056933,
+        "lat": 34.52136898642118,
+        "text": "5414 - 622 Highway 67 S - Priceville, AL"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 149,
+        "pointIndex": 149,
+        "lon": -86.04035695531763,
+        "lat": 33.95613745251137,
+        "text": "1149 - 3418 Rainbow Drive - Rainbow City, AL"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 150,
+        "pointIndex": 150,
+        "lon": -85.84607705982381,
+        "lat": 34.495781121254765,
+        "text": "1213 - 82 Mccurdy Ave N - Rainsville, AL"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 154,
+        "pointIndex": 154,
+        "lon": -87.03563065737217,
+        "lat": 34.79145242572935,
+        "text": "1891 - 16030 Highway 72 - Rogersville, AL"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 157,
+        "pointIndex": 157,
+        "lon": -86.03525424248244,
+        "lat": 34.654504560328064,
+        "text": "1670 - 1510 South Broad Street - Scottsboro, AL"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 161,
+        "pointIndex": 161,
+        "lon": -87.04675685620937,
+        "lat": 33.74432238109236,
+        "text": "1606 - 935 Highway 78 - Sumiton, AL"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 162,
+        "pointIndex": 162,
+        "lon": -86.23932584004075,
+        "lat": 33.16729399748783,
+        "text": "1425 - 530 W Ft Williams Street - Sylacauga, AL"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 163,
+        "pointIndex": 163,
+        "lon": -86.08320367370692,
+        "lat": 33.4394562490902,
+        "text": "1236 - 891 Battle Street E - Talladega, AL"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 165,
+        "pointIndex": 165,
+        "lon": -86.77702849731992,
+        "lat": 33.58065420857474,
+        "text": "1699 - 1250 Pinson Valley Pkwy - Tarrant, AL"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 170,
+        "pointIndex": 170,
+        "lon": -86.61344520582293,
+        "lat": 33.617972208020205,
+        "text": "5234 - 421 Main Street - Trussville, AL"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 171,
+        "pointIndex": 171,
+        "lon": -87.55911068982994,
+        "lat": 33.19951220045948,
+        "text": "959 - 1715 15th Street - Tuscaloosa, AL"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 172,
+        "pointIndex": 172,
+        "lon": -87.50628281127672,
+        "lat": 33.2062761093527,
+        "text": "1047 - 2431 University Blvd E - Tuscaloosa, AL"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 173,
+        "pointIndex": 173,
+        "lon": -87.54076409419918,
+        "lat": 33.164871104202746,
+        "text": "1166 - 525 Skyland Boulevard - Tuscaloosa, AL"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 176,
+        "pointIndex": 176,
+        "lon": -86.81776180251569,
+        "lat": 33.84215511357337,
+        "text": "5282 - 501 Hwy 31 South - Warrior, AL"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 1512,
+        "pointIndex": 1512,
+        "lon": -84.69613330949772,
+        "lat": 34.068397550367536,
+        "text": "1320 - 5021 Alltoona Gateway - Acworth, GA"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 1513,
+        "pointIndex": 1513,
+        "lon": -84.58120045404212,
+        "lat": 34.10864273550095,
+        "text": "1969 - 6391 Bells Ferry Road - Acworth, GA"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 1514,
+        "pointIndex": 1514,
+        "lon": -84.69227918447638,
+        "lat": 34.038399116356004,
+        "text": "4647 - 3437 Mars Hill Rd - Acworth, GA"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 1520,
+        "pointIndex": 1520,
+        "lon": -84.25144019923619,
+        "lat": 34.132214755779785,
+        "text": "2211 - 6130 Atlanta Highway - Alpharetta, GA"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 1538,
+        "pointIndex": 1538,
+        "lon": -84.3797275458279,
+        "lat": 34.35027707825009,
+        "text": "6545 - 8609 Ball Ground Hwy - Ball Ground, GA"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 1542,
+        "pointIndex": 1542,
+        "lon": -83.9633458405155,
+        "lat": 34.871287947057624,
+        "text": "983 - 477 Blue Ridge St - Blairsville, GA"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 1543,
+        "pointIndex": 1543,
+        "lon": -84.32482544561435,
+        "lat": 34.87415059370411,
+        "text": "949 - 140 Progress Cir, Unit 2 - Blue Ridge, GA"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 1545,
+        "pointIndex": 1545,
+        "lon": -85.15384413182471,
+        "lat": 33.694948898290946,
+        "text": "5177 - 2800 Music Mill Rd - Bremen, GA"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 1552,
+        "pointIndex": 1552,
+        "lon": -84.94587975507488,
+        "lat": 34.48805628092822,
+        "text": "1022 - 807 South Wall Street - Calhoun, GA"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 1554,
+        "pointIndex": 1554,
+        "lon": -84.49451568401992,
+        "lat": 34.23890443685406,
+        "text": "1363 - 71 Waleska Street - Canton, GA"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 1555,
+        "pointIndex": 1555,
+        "lon": -84.29542273273881,
+        "lat": 34.241693296586334,
+        "text": "5077 - 12122 Cumming Hwy - Canton, GA"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 1557,
+        "pointIndex": 1557,
+        "lon": -85.1393098260912,
+        "lat": 33.56083458413354,
+        "text": "4328 - 2245 Ga Hwy 166 - Carrollton, GA"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 1558,
+        "pointIndex": 1558,
+        "lon": -84.78837740344585,
+        "lat": 34.17575972879541,
+        "text": "1868 - 150 Market Square - Cartersville, GA"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 1559,
+        "pointIndex": 1559,
+        "lon": -84.82427632104509,
+        "lat": 34.20870934261325,
+        "text": "5292 - 1450 Joe Frank Harris Pkw - Cartersville, GA"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 1560,
+        "pointIndex": 1560,
+        "lon": -85.24900402051838,
+        "lat": 34.02673235906133,
+        "text": "1601 - 832 North Main Street - Cedartown, GA"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 1561,
+        "pointIndex": 1561,
+        "lon": -84.76988348124348,
+        "lat": 34.78179307956822,
+        "text": "1370 - 1011 North 3rd Avenue - Chatsworth, GA"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 1562,
+        "pointIndex": 1562,
+        "lon": -85.26867720273123,
+        "lat": 34.88623823970121,
+        "text": "5264 - 13063 North Highway 27 - Chickamauga, GA"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 1564,
+        "pointIndex": 1564,
+        "lon": -83.39736092741543,
+        "lat": 34.876493864199574,
+        "text": "5008 - 121 Hwy 441 South - Clayton, GA"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 1565,
+        "pointIndex": 1565,
+        "lon": -83.78191010679791,
+        "lat": 34.61317552266689,
+        "text": "1407 - 1776 Hwy 129 S - Cleveland, GA"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 1581,
+        "pointIndex": 1581,
+        "lon": -84.14450315465297,
+        "lat": 34.212055577471915,
+        "text": "1275 - 323 Canton Road - Cumming, GA"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 1582,
+        "pointIndex": 1582,
+        "lon": -84.07091179780485,
+        "lat": 34.259798321846006,
+        "text": "5144 - 3470 Keith Bridge Rd - Cumming, GA"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 1584,
+        "pointIndex": 1584,
+        "lon": -84.78800093584903,
+        "lat": 33.957600442425985,
+        "text": "2488 - 55 E Paulding Dr, Ste 126 - Dallas, GA"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 1585,
+        "pointIndex": 1585,
+        "lon": -84.8416125664537,
+        "lat": 33.867645975374614,
+        "text": "4584 - 2987 Villa Rica Hwy - Dallas, GA"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 1586,
+        "pointIndex": 1586,
+        "lon": -84.88475066139945,
+        "lat": 33.80774626672584,
+        "text": "6700 - 230 Ridge Rd - Dallas, GA"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 1587,
+        "pointIndex": 1587,
+        "lon": -84.9711345370198,
+        "lat": 34.74715614183373,
+        "text": "937 - 1516 S Dixie Highway - Dalton, GA"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 1588,
+        "pointIndex": 1588,
+        "lon": -84.96427976350537,
+        "lat": 34.779796062251535,
+        "text": "1287 - 600 North Glenwood Avenue - Dalton, GA"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 1589,
+        "pointIndex": 1589,
+        "lon": -84.9330003765257,
+        "lat": 34.7624630848464,
+        "text": "4446 - 2133 E Walnut Ave - Dalton, GA"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 1592,
+        "pointIndex": 1592,
+        "lon": -83.98819866430887,
+        "lat": 34.389753972677795,
+        "text": "4728 - 263 Dawson Village Way N - Dawsonville, GA"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 1609,
+        "pointIndex": 1609,
+        "lon": -84.43346662021008,
+        "lat": 34.79363840857087,
+        "text": "1057 - 25 Highland Court - Ellijay, GA"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 1617,
+        "pointIndex": 1617,
+        "lon": -85.25013150655015,
+        "lat": 34.954727193184176,
+        "text": "957 - 296 Van Cleve Street - Fort Oglethorpe, GA"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 1632,
+        "pointIndex": 1632,
+        "lon": -84.76714139150653,
+        "lat": 33.89726799514648,
+        "text": "1590 - 3589 Jimmy Lee Smith Pkwy - Hiram, GA"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 1633,
+        "pointIndex": 1633,
+        "lon": -84.50377086170727,
+        "lat": 34.139619619737175,
+        "text": "6307 - 5382 Holly Springs Pkwy - Holly Springs, GA"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 1635,
+        "pointIndex": 1635,
+        "lon": -84.46657398894024,
+        "lat": 34.47507292692103,
+        "text": "1765 - 15 Interstate Drive North - Jasper, GA"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 1639,
+        "pointIndex": 1639,
+        "lon": -84.6235869314333,
+        "lat": 34.01952156430184,
+        "text": "1358 - 6120 Pine Mountain Court - Kennesaw, GA"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 1640,
+        "pointIndex": 1640,
+        "lon": -84.5935638266452,
+        "lat": 34.05815947157157,
+        "text": "4460 - 4307 Wade Green Rd Nw - Kennesaw, GA"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 1642,
+        "pointIndex": 1642,
+        "lon": -85.27429021722867,
+        "lat": 34.73725225362159,
+        "text": "952 - 1929 North Main Street - La Fayette, GA"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 1664,
+        "pointIndex": 1664,
+        "lon": -84.52125219757198,
+        "lat": 34.06764288094581,
+        "text": "1384 - 4788 Canton Road Ne - Marietta, GA"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 1667,
+        "pointIndex": 1667,
+        "lon": -84.52769974260252,
+        "lat": 34.03143422018849,
+        "text": "1710 - 3280 Canton Road - Marietta, GA"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 1675,
+        "pointIndex": 1675,
+        "lon": -84.3720791387804,
+        "lat": 34.98654734504453,
+        "text": "1406 - 65 West Tennessee Avenue - Mccaysville, GA"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 1703,
+        "pointIndex": 1703,
+        "lon": -85.21337329794483,
+        "lat": 34.26858534061813,
+        "text": "1021 - 1607 Shorter Avenue Sw - Rome, GA"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 1704,
+        "pointIndex": 1704,
+        "lon": -85.17217914744191,
+        "lat": 34.315462047014705,
+        "text": "1725 - 3235 Martha Berry Hwy Nw - Rome, GA"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 1705,
+        "pointIndex": 1705,
+        "lon": -85.15969396184687,
+        "lat": 34.23110681234385,
+        "text": "6654 - 1815 Dean Ave Se - Rome, GA"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 1724,
+        "pointIndex": 1724,
+        "lon": -85.345233050047,
+        "lat": 34.48428660395962,
+        "text": "6646 - 10424 Commerce St - Summerville, GA"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 1734,
+        "pointIndex": 1734,
+        "lon": -85.51443638532004,
+        "lat": 34.86557393648127,
+        "text": "1839 - 11865 South Main - Trenton, GA"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 1740,
+        "pointIndex": 1740,
+        "lon": -84.94684021724504,
+        "lat": 34.899141170682014,
+        "text": "6525 - 3943 Cleveland Hwy - Varnell, GA"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 1743,
+        "pointIndex": 1743,
+        "lon": -84.93034344554712,
+        "lat": 33.73167383050884,
+        "text": "2142 - 513 West Bankhead Highway - Villa Rica, GA"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 2477,
+        "pointIndex": 2477,
+        "lon": -83.70216711533192,
+        "lat": 36.60826416207681,
+        "text": "1286 - 1226 Cumberland Avenue - Middlesboro, KY"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 3437,
+        "pointIndex": 3437,
+        "lon": -82.85520126729494,
+        "lat": 35.532762029276455,
+        "text": "3886 - 362 New Clyde Hwy - Canton, NC"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 3551,
+        "pointIndex": 3551,
+        "lon": -84.01245857289956,
+        "lat": 35.1064617560271,
+        "text": "6382 - 1359 Andrews Rd - Murphy, NC"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 3593,
+        "pointIndex": 3593,
+        "lon": -83.20283707155477,
+        "lat": 35.36921918906131,
+        "text": "5151 - 705 E Main St - Sylva, NC"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 3607,
+        "pointIndex": 3607,
+        "lon": -83.00525398729462,
+        "lat": 35.467846799458925,
+        "text": "1271 - 1921 South Main Street - Waynesville, NC"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 3608,
+        "pointIndex": 3608,
+        "lon": -82.98523034624475,
+        "lat": 35.49646520072707,
+        "text": "1272 - 254 Walnut Street - Waynesville, NC"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 4565,
+        "pointIndex": 4565,
+        "lon": -83.97529299897121,
+        "lat": 35.75933011790676,
+        "text": "930 - 329 S Calderwood Street - Alcoa, TN"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 4567,
+        "pointIndex": 4567,
+        "lon": -86.83973589257346,
+        "lat": 34.99199363682243,
+        "text": "1265 - 26905 Main Street - Ardmore, TN"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 4570,
+        "pointIndex": 4570,
+        "lon": -84.6070604632207,
+        "lat": 35.44844951266634,
+        "text": "1033 - 706 Decatur Pike - Athens, TN"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 4572,
+        "pointIndex": 4572,
+        "lon": -83.46833094877684,
+        "lat": 36.3012600494726,
+        "text": "6612 - 1075 Highway 11w - Bean Station, TN"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 4573,
+        "pointIndex": 4573,
+        "lon": -84.65445856454062,
+        "lat": 35.170827006943284,
+        "text": "6696 - 6160 Highway 411 - Benton, TN"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 4574,
+        "pointIndex": 4574,
+        "lon": -83.71566616607925,
+        "lat": 36.136721415863576,
+        "text": "5421 - 209 Rutledge Pike - Blaine, TN"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 4584,
+        "pointIndex": 4584,
+        "lon": -85.28516377884779,
+        "lat": 35.01989799887366,
+        "text": "935 - 1740 East 23rd Street - Chattanooga, TN"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 4585,
+        "pointIndex": 4585,
+        "lon": -85.14857013689351,
+        "lat": 35.003554273949476,
+        "text": "1032 - 8126 East Brainerd Road - Chattanooga, TN"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 4586,
+        "pointIndex": 4586,
+        "lon": -85.29033441787396,
+        "lat": 34.99247070403999,
+        "text": "1043 - 4400 Rossville Boulevard - Chattanooga, TN"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 4587,
+        "pointIndex": 4587,
+        "lon": -85.24443793973506,
+        "lat": 35.023350701100924,
+        "text": "1144 - 3649-A Brainerd Road - Chattanooga, TN"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 4588,
+        "pointIndex": 4588,
+        "lon": -85.2480285825925,
+        "lat": 35.123855192291046,
+        "text": "1147 - 4707 Hixson Pike - Chattanooga, TN"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 4589,
+        "pointIndex": 4589,
+        "lon": -85.36842884629368,
+        "lat": 35.01982885270348,
+        "text": "1486 - 3140 Cummings Highway - Chattanooga, TN"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 4590,
+        "pointIndex": 4590,
+        "lon": -85.17911156191497,
+        "lat": 35.094982401177504,
+        "text": "2009 - 4928 Eller Road - Chattanooga, TN"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 4591,
+        "pointIndex": 4591,
+        "lon": -85.16716480621886,
+        "lat": 35.041861194031696,
+        "text": "5199 - 6870 Lee Hwy - Chattanooga, TN"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 4598,
+        "pointIndex": 4598,
+        "lon": -84.88145908933933,
+        "lat": 35.16606060516688,
+        "text": "936 - 817 Keith Street Nw - Cleveland, TN"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 4599,
+        "pointIndex": 4599,
+        "lon": -84.8738144958246,
+        "lat": 35.13297790793632,
+        "text": "2191 - 1055 King Street Se - Cleveland, TN"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 4600,
+        "pointIndex": 4600,
+        "lon": -84.88209166342347,
+        "lat": 35.214849762523215,
+        "text": "6590 - 3884 Candies Creek Ln Nw - Cleveland, TN"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 4601,
+        "pointIndex": 4601,
+        "lon": -84.1280074379211,
+        "lat": 36.107275532254675,
+        "text": "1934 - 626 N Charles Seivers Bvd - Clinton, TN"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 4609,
+        "pointIndex": 4609,
+        "lon": -83.42541370605693,
+        "lat": 36.01846167320673,
+        "text": "5136 - 1029 Highway 92 S - Dandridge, TN"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 4610,
+        "pointIndex": 4610,
+        "lon": -85.03787782044355,
+        "lat": 35.46789794541928,
+        "text": "962 - 3795 Rhea County Highway - Dayton, TN"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 4613,
+        "pointIndex": 4613,
+        "lon": -85.39190937750641,
+        "lat": 35.368707001095686,
+        "text": "1364 - 15403 Rankin Avenue - Dunlap, TN"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 4615,
+        "pointIndex": 4615,
+        "lon": -85.22832418782633,
+        "lat": 34.99277508659469,
+        "text": "1071 - 5510 Ringgold Road - East Ridge, TN"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 4619,
+        "pointIndex": 4619,
+        "lon": -84.14507463139506,
+        "lat": 35.89194787207583,
+        "text": "5212 - 10870 Kingston Pike - Farragut, TN"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 4620,
+        "pointIndex": 4620,
+        "lon": -86.5672286914093,
+        "lat": 35.137768765935505,
+        "text": "955 - 1222 Huntsville Highway - Fayetteville, TN"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 4627,
+        "pointIndex": 4627,
+        "lon": -82.78568269158353,
+        "lat": 36.1781085364604,
+        "text": "1201 - 2085 E Andrew Johnson Hwy - Greeneville, TN"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 4628,
+        "pointIndex": 4628,
+        "lon": -82.84848306075418,
+        "lat": 36.14300367493439,
+        "text": "5197 - 635 Asheville Hwy - Greeneville, TN"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 4629,
+        "pointIndex": 4629,
+        "lon": -84.54792738797744,
+        "lat": 35.89087700483276,
+        "text": "6569 - 2017 Roane State Hwy - Harriman, TN"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 4639,
+        "pointIndex": 4639,
+        "lon": -85.62950162964864,
+        "lat": 35.07374892140251,
+        "text": "2217 - 4180 Main Street - Jasper, TN"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 4640,
+        "pointIndex": 4640,
+        "lon": -83.4960928197305,
+        "lat": 36.11423977076339,
+        "text": "1324 - 105 East Broadway Blvd - Jefferson City, TN"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 4648,
+        "pointIndex": 4648,
+        "lon": -85.6781136497118,
+        "lat": 35.044790138742485,
+        "text": "5430 - 650 Main Street - Kimball, TN"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 4651,
+        "pointIndex": 4651,
+        "lon": -83.89837553939901,
+        "lat": 35.99053628648244,
+        "text": "927 - 915 North Cherry Street - Knoxville, TN"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 4652,
+        "pointIndex": 4652,
+        "lon": -83.9694047151491,
+        "lat": 35.97498248644911,
+        "text": "1016 - 3408 Western Avenue - Knoxville, TN"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 4653,
+        "pointIndex": 4653,
+        "lon": -83.90852431960377,
+        "lat": 35.93863714699461,
+        "text": "1039 - 3940 Chapman Highway - Knoxville, TN"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 4654,
+        "pointIndex": 4654,
+        "lon": -83.89056884491174,
+        "lat": 35.99057207403371,
+        "text": "1055 - 2813 East Magnolia Ave - Knoxville, TN"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 4655,
+        "pointIndex": 4655,
+        "lon": -84.0242916142937,
+        "lat": 35.93164213557776,
+        "text": "1078 - 7051 Kingston Pike - Knoxville, TN"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 4656,
+        "pointIndex": 4656,
+        "lon": -83.98851478575085,
+        "lat": 36.05606326547962,
+        "text": "1730 - 7603 Bishop Rd - Knoxville, TN"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 4657,
+        "pointIndex": 4657,
+        "lon": -83.92419697708527,
+        "lat": 36.02358528940681,
+        "text": "4330 - 2901-B Tazewell Pike - Knoxville, TN"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 4658,
+        "pointIndex": 4658,
+        "lon": -83.92761242499893,
+        "lat": 36.07351708194534,
+        "text": "4469 - 6936 Maynardville Pike - Knoxville, TN"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 4659,
+        "pointIndex": 4659,
+        "lon": -83.9918035660246,
+        "lat": 36.00744712282972,
+        "text": "4818 - 5904 Clinton Highway - Knoxville, TN"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 4660,
+        "pointIndex": 4660,
+        "lon": -84.09878639847892,
+        "lat": 35.98044299131925,
+        "text": "5413 - 7534 Oak Ridge Hwy - Knoxville, TN"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 4661,
+        "pointIndex": 4661,
+        "lon": -83.788599871369,
+        "lat": 36.02070670484767,
+        "text": "6557 - 7308 Asheville Hwy - Knoxville, TN"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 4664,
+        "pointIndex": 4664,
+        "lon": -84.16506824304379,
+        "lat": 36.34458500817089,
+        "text": "929 - 2330 Jacksboro Pike - Lafollette, TN"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 4665,
+        "pointIndex": 4665,
+        "lon": -85.16352810144315,
+        "lat": 35.197565091213846,
+        "text": "6368 - 8425 Hixson Pike - Lakesite, TN"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 4670,
+        "pointIndex": 4670,
+        "lon": -84.26246170071676,
+        "lat": 35.80812594942864,
+        "text": "2010 - 535 Highway 321 North - Lenoir City, TN"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 4675,
+        "pointIndex": 4675,
+        "lon": -84.35280676998099,
+        "lat": 35.72567789563732,
+        "text": "2127 - 1052 Mulberry Street - Loudon, TN"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 4677,
+        "pointIndex": 4677,
+        "lon": -84.35894413333449,
+        "lat": 35.52044048780897,
+        "text": "1229 - 516 Main Street - Madisonville, TN"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 4680,
+        "pointIndex": 4680,
+        "lon": -83.94676405093622,
+        "lat": 35.78971083610429,
+        "text": "1060 - 2545 East Broadway Avenue - Maryville, TN"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 4681,
+        "pointIndex": 4681,
+        "lon": -83.99813456153652,
+        "lat": 35.728336433050515,
+        "text": "5195 - 1912 W Broadway Ave - Maryville, TN"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 4682,
+        "pointIndex": 4682,
+        "lon": -83.79807442603169,
+        "lat": 36.25176446107537,
+        "text": "5263 - 4341 Maynardville Hwy - Maynardville, TN"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 4705,
+        "pointIndex": 4705,
+        "lon": -83.3258550377837,
+        "lat": 36.20477180240909,
+        "text": "1206 - 2320 W Andrew Johnson Hwy - Morristown, TN"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 4706,
+        "pointIndex": 4706,
+        "lon": -83.24141302260136,
+        "lat": 36.23472243968587,
+        "text": "4405 - 4101 E Andrew Johnson Hwy - Morristown, TN"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 4729,
+        "pointIndex": 4729,
+        "lon": -83.19475529652709,
+        "lat": 35.96225174808603,
+        "text": "1219 - 338 Cosby Highway - Newport, TN"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 4730,
+        "pointIndex": 4730,
+        "lon": -84.25320160108521,
+        "lat": 36.01458819633643,
+        "text": "931 - 110 East Main Street - Oak Ridge, TN"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 4733,
+        "pointIndex": 4733,
+        "lon": -85.05659877752686,
+        "lat": 35.082207213939284,
+        "text": "956 - 9407 Lee Highway - Ooltewah, TN"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 4736,
+        "pointIndex": 4736,
+        "lon": -83.58274363341496,
+        "lat": 35.80297856104221,
+        "text": "5298 - 325 Wears Valley Rd - Pigeon Forge, TN"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 4741,
+        "pointIndex": 4741,
+        "lon": -85.30941755572104,
+        "lat": 35.092637260127105,
+        "text": "1176 - 2175 Dayton Boulevard - Red Bank, TN"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 4743,
+        "pointIndex": 4743,
+        "lon": -84.68607002024754,
+        "lat": 35.866345325548366,
+        "text": "938 - 105 North Gateway Avenue - Rockwood, TN"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 4746,
+        "pointIndex": 4746,
+        "lon": -83.55476858603475,
+        "lat": 35.86652336394303,
+        "text": "4408 - 502 Dolly Parton Pkwy - Sevierville, TN"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 4747,
+        "pointIndex": 4747,
+        "lon": -83.79377577050565,
+        "lat": 35.886366113509155,
+        "text": "2255 - 10124 Chapman Highway - Seymour, TN"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 4754,
+        "pointIndex": 4754,
+        "lon": -85.18685096164165,
+        "lat": 35.247022240035335,
+        "text": "934 - 9845 Dayton Pike - Soddy-daisy, TN"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 4760,
+        "pointIndex": 4760,
+        "lon": -84.47453585004519,
+        "lat": 35.5900217165584,
+        "text": "1076 - 923 New Highway 68 - Sweetwater, TN"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 4762,
+        "pointIndex": 4762,
+        "lon": -86.21428160435437,
+        "lat": 35.364805737885945,
+        "text": "961 - 407 North Jackson Street - Tullahoma, TN"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 4764,
+        "pointIndex": 4764,
+        "lon": -84.27255691134638,
+        "lat": 35.577449907681284,
+        "text": "6571 - 2140 Highway 411 - Vonore, TN"
+    },
+    {
+        "curveNumber": 0,
+        "pointNumber": 4767,
+        "pointIndex": 4767,
+        "lon": -86.09857942667162,
+        "lat": 35.1964374282519,
+        "text": "900 - 1300 Dinah Shore Blvd - Winchester, TN"
+    }
+]
